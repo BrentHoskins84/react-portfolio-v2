@@ -1,15 +1,20 @@
 {
     "basic_info": {
       "name": "Brent Hoskins",
-      "titles": [ "Front-end Developer", "Full-Stack Developer", "Mobile App Developer" ],
+      "titles": [ "Full-Stack Developer", "Mobile App Developer" ],
       "social": [
         {
           "name": "github",
           "url": "https://github.com/BrentHoskins84/",
           "class": "fab fa-github"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://facebook.com/BrentHoskins84/",
+          "class": "fab fa-facebook"
         }
       ],
-      "image": "Black-gray-brent.png"
+      "image": "profile.jpg"
     },
     "skills": {
       "icons": [

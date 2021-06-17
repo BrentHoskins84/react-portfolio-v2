@@ -48,7 +48,7 @@ class ProjectDetailsModal extends Component {
         </span>
         <div className="col-md-12">
           <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
-            <div className="slider-tab">
+            <div className={`slider-tab ${this.props.data.platform}`}>
               <span
                 className="iconify slider-iconfiy"
                 data-icon="emojione:red-circle"
@@ -68,10 +68,15 @@ class ProjectDetailsModal extends Component {
                 data-inline="false"
               ></span>
             </div>
+            {(this.props.data.platform === 'app') ? (
+                <div className="notch-container">
+                  <div className="notch"></div>
+                </div>
+            ) : null}
             <AwesomeSlider
               cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"
-              className="slider-image"
+              className={`slider-image ${this.props.data.platform}`}
             >
               {img}
             </AwesomeSlider>

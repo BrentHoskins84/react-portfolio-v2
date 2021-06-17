@@ -1,6 +1,6 @@
-@import '../src/scss/themes/theme-dark.scss';
-@import '../src/scss/themes/theme-light.scss';
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+@import "../src/scss/themes/theme-dark.scss";
+@import "../src/scss/themes/theme-light.scss";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap");
 
 html {
 	font-size: 62.5%;
@@ -20,7 +20,7 @@ html {
 }
 
 .title-styles {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-size: 250%;
 }
 
@@ -54,7 +54,7 @@ header {
 
 .project-date {
 	font-size: 16px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	padding: 8px 15px 2px 15px;
 	position: relative;
 	z-index: -500;
@@ -84,18 +84,72 @@ header h1 {
 	text-align: center;
 	font-weight: 600 !important;
 	color: #353239;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
 
 .slider-image {
 	border: 5px solid #D7CAAA;
+
+	&.app {
+		border: 1.334vh solid #111;
+		background-color: black;
+		border-radius: 4.5vh;
+		max-width: 325px !important;
+		margin-left: auto;
+		margin-right: auto;
+		height: 600px;
+
+		.awssld__wrapper {
+			border-radius: 3.6vh;
+			//border-bottom-right-radius: 4vh;
+		}
+
+		.awssld__bullets {
+			bottom: -50px;
+		}
+	}
 }
 
 .slider-tab {
 	background-color: #D7CAAA;
 	height: 25px;
+
+	&.app{
+		//height: 5px;
+		//background-color: black !important;
+		//max-width: 325px;
+		//margin-left: auto;
+		//margin-right: auto;
+		//border-top-left-radius: 4.5vh;
+		//border-top-right-radius: 4.5vh;
+		//position: relative;
+		display: none;
+
+		svg{
+			display: none !important;
+		}
+	}
+}
+
+.notch-container {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+	height: 100px;
+}
+
+.notch-container .notch {
+	width: 18vh;
+	height: 2.25vh;
+	margin: 0 auto;
+	background-color: #111;
+	border-bottom-left-radius: 2.334vh;
+	border-bottom-right-radius: 2.334vh;
+	position: absolute;
+	left: 33%;
+	z-index: 999;
 }
 
 .slider-iconfiy {
@@ -114,7 +168,7 @@ header h1 {
 
 #about h1 {
 	padding-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 18px/24px "opensans-bold", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: black;
@@ -124,6 +178,13 @@ header h1 {
 .foto img {
 	display: block;
 	width: 100%;
+}
+
+.foto img.app {
+	display: block;
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .foto div {
@@ -163,7 +224,7 @@ header h1 {
 
 .project-title-settings {
 	margin-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 18px/24px "opensans-bold", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: black;
@@ -172,7 +233,9 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	min-width: 225px;
+	width: 275px;
+	height: auto;
 }
 
 .polaroid span {
@@ -201,7 +264,7 @@ header h1 {
 }
 
 .font-trebuchet {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 #preview {
@@ -228,6 +291,10 @@ header h1 {
 	text-align: center;
 }
 
+.devicon-experience {
+	margin-top: 0 !important;
+}
+
 .main-badge {
 	font-size: 13px !important;
 	text-align: left !important;
@@ -236,7 +303,7 @@ header h1 {
 	background-color: #AE944F !important;
 	color: white;
 	font-weight: lighter !important;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .experience-badge {
@@ -247,7 +314,7 @@ header h1 {
 	background-color: #f9f5e9 !important;
 	color: black;
 	font-weight: lighter !important;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .vertical-timeline-element-date {
@@ -288,7 +355,7 @@ header h1 {
 }
 
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+	font: 15px "opensans-bold", sans-serif;
 	color: #313131;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -387,7 +454,7 @@ header h1 {
 .section-title {
 	padding-top: 5%;
 	padding-bottom: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 18px/24px "opensans-bold", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: #fff;

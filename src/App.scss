@@ -38,7 +38,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #3AAFA9;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -74,7 +74,7 @@ header {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: #3AAFA9;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -90,7 +90,7 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid #17252A;
 
 	&.app {
 		border: 1.334vh solid #111;
@@ -162,7 +162,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #FEFFFF;
 	overflow: hidden;
 }
 
@@ -282,7 +282,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #3aafa9;
 }
 
 .experience-icon {
@@ -296,12 +296,12 @@ header h1 {
 }
 
 .main-badge {
-	font-size: 13px !important;
+	font-size: 15px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
-	color: white;
+	background-color: #2B7A78 !important;
+	color: #FEFFFF;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -311,7 +311,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: #DEF2F1 !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -320,6 +320,10 @@ header h1 {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+}
+
+.vertical-timeline-element .vertical-timeline-element-content {
+	box-shadow: 0 3px #DEF2F1;
 }
 
 @media only screen and (max-width: 1170px) {
@@ -408,7 +412,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #3aafa9;
 	padding-bottom: 5%;
 }
 

@@ -36,6 +36,9 @@ class Skills extends Component {
             <ul className="list-inline mx-auto skill-icon">{skills}</ul>
           </div>
         </div>
+        <div className="col-md-12 text-center d-flex justify-content-center align-items-center">
+          <a href="#" className="btn btn-light btn-lg">Resume</a>
+        </div>
       </section>
     );
   }

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import AnimatedComputer from './AnimatedComputer';
+
 
 class Header extends Component {
   titles = [];
@@ -39,7 +41,8 @@ class Header extends Component {
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+              {/*<span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>*/}
+                <AnimatedComputer />
               <br/>
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />

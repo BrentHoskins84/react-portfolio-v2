@@ -121,6 +121,21 @@
         ]
       },
       {
+        "company": "Information Technology Management",
+        "title": "National University",
+        "years": "04.2016",
+        "mainTech": [
+          "Education"
+        ],
+        "icon" : "devicon-experience fas fa-university",
+        "technologies": [
+          "Networking",
+          "Database Management",
+          "Documentation",
+          "Planning"
+        ]
+      },
+      {
         "company": "California National Guard",
         "title": "Information System Specialist",
         "years": "05.2013 - 11.2016",

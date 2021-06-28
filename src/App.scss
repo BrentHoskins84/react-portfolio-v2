@@ -4,12 +4,32 @@
 @import "../src/scss/themes/theme-light.scss";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap");
 
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: local('ProximaNova-Regular'), url("./fonts/Proxima Nova Reg.otf") format('otf');
+}
+
+@font-face {
+	font-family: 'ProximaNova-Semibold';
+	src: local('ProximaNova-Semibold'), url("./fonts/ProximaNova-SemiBold.otf") format('otf');
+}
+
+@font-face {
+	font-family: 'Merriweather-Regular';
+	src: local('Merriweather-Regular'), url("./fonts/Merriweather-Regular.ttf") format('otf');
+}
+
 html {
 	font-size: 62.5%;
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding: 0;
 }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: ProximaNova-Semibold;
+}
+
 
 .aligner {
 	display: flex;
@@ -22,7 +42,7 @@ html {
 }
 
 .title-styles {
-	font-family: "Raleway", sans-serif;
+	font-family: "Merriweather-Regular";
 	font-size: 250%;
 }
 
@@ -56,7 +76,7 @@ header {
 
 .project-date {
 	font-size: 16px;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "ProximaNova-Regular";
 	padding: 8px 15px 2px 15px;
 	position: relative;
 	z-index: -500;
@@ -84,9 +104,9 @@ header {
 header h1 {
 	font-size: 400%;
 	text-align: center;
-	font-weight: 600 !important;
+	font-weight: 800 !important;
 	color: #353239;
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-family: "ProximaNova-Semibold";
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
@@ -170,7 +190,7 @@ header h1 {
 
 #about h1 {
 	padding-top: 5%;
-	font: 18px/24px "opensans-bold", sans-serif;
+	font: 20px/26px "ProximaNova-Regular", serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: black;
@@ -226,7 +246,7 @@ header h1 {
 
 .project-title-settings {
 	margin-top: 5%;
-	font: 18px/24px "opensans-bold", sans-serif;
+	font: 18px/24px "Merriweather-Regular", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: black;
@@ -266,7 +286,7 @@ header h1 {
 }
 
 .font-trebuchet {
-	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-family: "Merriweather-Regular";
 }
 
 #preview {
@@ -305,7 +325,7 @@ header h1 {
 	background-color: #2B7A78 !important;
 	color: #FEFFFF;
 	font-weight: lighter !important;
-	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-family: "ProximaNova-Regular";
 }
 
 .experience-badge {
@@ -316,12 +336,20 @@ header h1 {
 	background-color: #DEF2F1 !important;
 	color: black;
 	font-weight: lighter !important;
-	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-family: "ProximaNova-Regular";
 }
 
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+}
+
+.vertical-timeline-element-title {
+	font-family: "Merriweather-Regular";
+}
+
+.vertical-timeline-element-subtitle {
+	font-family: "Merriweather-Regular";
 }
 
 .vertical-timeline-element .vertical-timeline-element-content {
@@ -472,7 +500,7 @@ header h1 {
 .section-title {
 	padding-top: 5%;
 	padding-bottom: 5%;
-	font: 18px/24px "opensans-bold", sans-serif;
+	font: 20px/26px "ProximaNova-Regular", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: #fff;

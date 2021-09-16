@@ -540,4 +540,7 @@ footer a:focus {
 	font-size: 22px;
 }
 
+.vertical-timeline-element--no-children .vertical-timeline-element-content::before {
+	display: none;
+}
 

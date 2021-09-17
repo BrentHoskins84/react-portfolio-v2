@@ -539,7 +539,7 @@ footer a:focus {
 	margin-top: 50px;
 	font-size: 22px;
 }
-
+/* purgecss ignore */
 .vertical-timeline-element--no-children .vertical-timeline-element-content::before {
 	display: none;
 }

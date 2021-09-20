@@ -2,7 +2,7 @@
   "name": "Brent-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/BrentHoskins84/react-portfolio-v2",
+  "homepage": "http://brenthoskins84.github.io/react-portfolio-v2/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

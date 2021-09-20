@@ -37,7 +37,7 @@ class Skills extends Component {
           </div>
         </div>
         <div className="col-md-12 text-center d-flex justify-content-center align-items-center">
-          <a href="/Resume.pdf" className="btn btn-light btn-lg" target="_blank">Resume</a>
+          <a href="/react-portfolio-v2/Resume.pdf" className="btn btn-light btn-lg" target="_blank">Resume</a>
         </div>
       </section>
     );
